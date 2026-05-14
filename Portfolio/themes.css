@@ -1,0 +1,52 @@
+/* ============================================
+   THEMES — Dark & Light
+   Apply via: <html data-theme="dark|light">
+   ============================================ */
+
+/* ── DARK (default) ─────────────────────── */
+[data-theme="dark"] {
+  --surface-main:     #121212;
+  --surface-elevated: #212529;
+  --border-subtle:    #343A40;
+
+  --content-primary:   #FFFFFF;
+  --content-secondary: #ADB5BD;
+  --content-tertiary:  #6C757D;
+
+  --glass-bg:          rgba(33, 37, 41, 0.65);
+  --glass-border:      rgba(52, 58, 64, 0.90);
+  --glass-shadow:      0 4px 32px rgba(0, 0, 0, 0.40);
+  --glass-shadow-hover:0 8px 48px rgba(0, 0, 0, 0.55);
+
+  --nav-bg:            rgba(18, 18, 18, 0.82);
+  --divider-color:     linear-gradient(90deg, transparent, #343A40 30%, rgba(234,255,0,0.18) 50%, #343A40 70%, transparent);
+
+  --cursor-glow:       rgba(234, 255, 0, 0.05);
+  --cursor-dot:        rgba(234, 255, 0, 0.85);
+  --ambient-a:         rgba(234, 255, 0, 0.04);
+  --ambient-b:         rgba(100, 120, 220, 0.05);
+}
+
+/* ── LIGHT ──────────────────────────────── */
+[data-theme="light"] {
+  --surface-main:     #FFFFFF;
+  --surface-elevated: #F8F9FA;
+  --border-subtle:    #DEE2E6;
+
+  --content-primary:   #212529;
+  --content-secondary: #6C757D;
+  --content-tertiary:  #ADB5BD;
+
+  --glass-bg:          rgba(255, 255, 255, 0.72);
+  --glass-border:      rgba(222, 226, 230, 0.95);
+  --glass-shadow:      0 2px 20px rgba(0, 0, 0, 0.07);
+  --glass-shadow-hover:0 8px 40px rgba(0, 0, 0, 0.12);
+
+  --nav-bg:            rgba(255, 255, 255, 0.85);
+  --divider-color:     linear-gradient(90deg, transparent, #DEE2E6 30%, rgba(200,220,0,0.25) 50%, #DEE2E6 70%, transparent);
+
+  --cursor-glow:       rgba(150, 170, 230, 0.09);
+  --cursor-dot:        rgba(80, 100, 180, 0.50);
+  --ambient-a:         rgba(234, 255, 0, 0.06);
+  --ambient-b:         rgba(100, 130, 240, 0.04);
+}
